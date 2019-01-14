@@ -25,11 +25,12 @@ After taking a look at the application, you have assesed that you need to comple
 - An original grocery list has been provided and hooked up to the container. Feel free to inspect console and view the list.
 
 ## Getting started
-  1. Clone this respo
-  2. cd into the new directory
-  3. run `yarn`
-  4. run `yarn start`
-  5. open to http://localhost:3000/
+  1. Fork this Codesandbox and add your last name onto the end of the title
+  2. Either continue writing in code sandbox or you can opt to connect it to your GitHub account and clone the repo to work locally
+  3. If you run it locally... follow 4 - 6. If you elect to keep using Code sandbox, do your thing.
+  4. run `yarn`
+  5. run `yarn start`
+  6. open to http://localhost:3000/
 
 ## Exercise Contraints
 Use whatever resources you're most comfortable with to complete the assignment. This is designed to be a real-world exercise so we want you to use the real-world to be able to solve this problem. Nothing is off limits.
