@@ -79,4 +79,4 @@ All the required features for the assessment have been completed. With more time
 
   1. A working example of a Redux project (this was my first experience using Redux).
 
-  2. An overview of how to fulfill the assessment's requirements which I consulted when stuck and needing guidance.
+  2. An overview of how to fulfill the assessment's requirements which I consulted when stuck and needed guidance.
