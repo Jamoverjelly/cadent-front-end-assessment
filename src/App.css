@@ -13,6 +13,7 @@
   background-color: #222;
   height: 150px;
   padding: 20px;
+  margin-bottom: 20px;
   color: white;
 }
 
@@ -25,17 +26,21 @@
 }
 
 @keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
-.groceryApp{
+.groceryApp {
   display: flex;
   flex-direction: column;
   width: 100%;
 }
 
-.types{
+.types {
   display: flex;
   flex-direction: row;
   width: 100%;
@@ -47,13 +52,24 @@
   text-align: left;
 }
 
-.listTable{
+.listTable {
   flex: 1;
   padding: 20px;
   text-align: left;
 }
 
-.addItemButton{
-  padding: 20px;
-  border-radius: 1px solid #d1d1d1;
+.addItemButton {
+  margin: 5px;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 4px;
+  background-color: #e9e4e4;
+}
+
+.clearItemsButton {
+  margin: 5px;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 4px;
+  background-color: #dd6a6a;
 }

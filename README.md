@@ -48,3 +48,35 @@ When you're finished, be sure that you create a link and share the link with the
 In addition, keep it locally and then bring it into your interview. We'll walk through what you did and how you did it. Again don't be worried if you can't get everything working. Words on a screen aren't too important to us, we care more about the concepts and the ways that you went about solving the problems that you're presented with. Keep a mental note of the resources you used to accomplish these problems as we'll be asking you to talk through how you went about solving for something that you previously didn't understand.
 
 Good luck!
+
+<hr>
+
+## Addendum
+
+#### Notes
+
+All the required features for the assessment have been completed. With more time, I would have worked on the following:
+
+- Generating a unique ID for each addition of a new random item to the order table. This would have been safer to use in place of the index value when generating new rows in the order table. It would have also made it possible to deselect specific items from the list table component rather than the full collection of that item in the present state.
+
+- Wiring up the 'Add Random Item' button to actually add random items besides Roasted Turkey. This was a feature I briefly tried out before realizing two things and scrapping the idea:
+
+  1. The simple, unstyled table would soon become an un-ordered (random) mess with this feature included.
+
+  2. Adding a 'Clear Order Table' button to clean up the mess would have been a non-trivial addition which would involve controlling the `ListTable` from the `ListInput`.
+
+- The app would obviously benefit from basic styling.
+
+#### References
+
+- [Immutability-helper](https://github.com/kolodny/immutability-helper): Referenced this library's readme on GitHub to learn how to update the application state instead of changing it.
+
+- [React Docs: Handling Events](https://reactjs.org/docs/handling-events.html): Reviewed the section on creating a custom `this` binding attached to the table's action buttons so item data could be lifted as `payload` to the various state-altering actions of the reducer function.
+
+- [Redux Docs](https://redux.js.org/introduction/getting-started): Referenced several pages from the official docs to understand the fundamentals behind Redux.
+
+- [cadent-react-redux-excerise_clarke](https://github.com/donovanclarke/cadent-react-redux-excerise_clarke): Per the guidelines specified in the **Exercise Constraints**, a search utilizing five key terms from the original readme returned this repo. This solution was cloned down to my machine and used throughout the course of the assessment to provide:
+
+  1. A working example of a Redux project (this was my first experience using Redux).
+
+  2. An overview of how to fulfill the assessment's requirements which I consulted when stuck and needing guidance.

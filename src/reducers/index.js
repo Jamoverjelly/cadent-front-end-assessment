@@ -1,8 +1,8 @@
-import groceries from '../ducks/groceries';
-import {combineReducers} from 'redux';
+import { combineReducers } from "redux";
+import groceries from "../ducks/groceries";
 
 const rootReducer = combineReducers({
-  groceries,
+  groceries
 });
 
 export default rootReducer;
